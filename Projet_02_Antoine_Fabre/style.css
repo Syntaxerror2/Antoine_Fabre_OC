@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Raleway';
+    src : url('Raleway-VariableFont_wght.ttf')
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+   
+}
+.illustrations {
+    max-width: 200px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Hebergements {
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 15px;
+}
+#populaires {
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 15px;  
+}
+
+.vignettes {
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:link {
+    text-decoration: none;
+  
+  }
+
+.linky:hover {
+    color: #0065FC;
+    text-decoration: overline;
+}
+
+header {
+    display: flex;
+}
+
