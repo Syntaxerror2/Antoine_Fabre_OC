@@ -1,0 +1,246 @@
+
+
+@media all and (max-width: 992px) {
+    /* smartphone */
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        margin: auto;
+    
+    
+    }
+    .container3 {
+        
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+    #gigadiv {
+        flex-direction: column;
+    }
+    .filters {
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+    }
+    .linky {
+        font-size: 30px;
+
+    }
+
+
+    
+    
+    }
+
+
+
+@media only screen and (max-width: 768px) {}
+
+@font-face {
+    font-family: 'Raleway';
+    src : url('Raleway-VariableFont_wght.ttf')
+}
+
+
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin-right: 60px;
+    margin-left: 60px;
+   
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+}
+
+nav {
+    display: flex;
+}
+
+#Booki {
+    height: 100px;
+    width: 180px;
+}
+
+.p1 {
+    margin: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+
+.sfilter {
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px; 
+   
+
+}
+.sfilter:hover {
+    text-decoration: overline;
+    
+}
+.filters {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+
+
+a:link {
+    text-decoration: none;
+  
+  }
+
+
+#note {
+    margin-top: 300px;
+}
+
+#gigadiv {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.illustrations {
+   width: 300px;
+   height: 200px;
+   border-radius: 15px;
+
+    
+}
+
+
+.illustrations2 {
+    max-width: 300px;
+    max-height: 400px;
+    min-height: 400px;
+    min-width: 150px;
+    white-space: nowrap;
+    border-radius: 15px;
+}
+.vignettes {
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+.vignettes2 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+    margin-bottom: 20px;
+   
+    
+
+}
+
+.vignettes3 {
+    
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+    box-shadow: 3px 3px 10px gray;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.vignettes4 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+    box-shadow: 3px 3px 10px gray;
+    
+}
+
+button {
+    background-color: #0065FC;
+    color: white;
+    border-radius: 20px;
+}
+
+#icon2 {
+    border: solid;
+    border-radius: 50%;
+    padding: 8px;
+    width: 10px;
+    height: 10px;
+}
+
+.fa-money-bill-wave, .fa-male, .fa-heart, .fa-dog {
+    color: #0065FC;
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap : wrap;
+
+}
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    margin: auto;
+  
+
+}
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#Hebergements {
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 15px;
+}
+#populaires {
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 15px;  
+}
+#Activites {
+    padding: 20px;
+    border-radius: 15px; 
+        
+}
+
+
+.linky:hover {
+    color: #0065FC;
+    text-decoration: overline;
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    padding: 10px;
+}
